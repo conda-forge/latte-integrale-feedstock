@@ -30,8 +30,6 @@ requirements:
     - ntl
     - gmp
     - cddlib
-    # The 4ti2 interface (which only calls the 4ti2 binaries) is only built if
-    # 4ti2 is detected by configure.
     - 4ti2
   run:
     - 4ti2
