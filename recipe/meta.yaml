@@ -46,7 +46,7 @@ test:
 
 about:
   home: https://www.math.ucdavis.edu/~latte/
-  license: GPLv2
+  license: GPL-2.0-or-later
   license_file: COPYING
   summary: 'software for counting lattice points and integration over convex polytopes'
   description: |
