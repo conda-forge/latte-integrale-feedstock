@@ -12,7 +12,7 @@ source:
     - gh11.patch
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   run_exports:
     # LattE integrale provides a liblatte library which is not very widely used.
