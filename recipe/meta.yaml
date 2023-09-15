@@ -10,7 +10,7 @@ source:
   sha256: 006c10ebe5d5bfdc9b159cba6264a4432861fe763ce05fe821624ab7d3fc2170
 
 build:
-  number: 1
+  number: 0
   skip: True  # [win]
   run_exports:
     # LattE integrale provides a liblatte library which is not very widely used.
