@@ -20,6 +20,7 @@ build:
 requirements:
   build:
     - automake
+    - make
     - libtool
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
