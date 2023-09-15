@@ -6,4 +6,4 @@ export CXXFLAGS="$CXXFLAGS -std=c++14"
 ./configure --prefix=$PREFIX --enable-shared --disable-static --with-ntl=$PREFIX --with-cddlib=$PREFIX || (cat config.log; false)
 make -j${CPU_COUNT}
 make install
-make check || (cat code/test-suite/test-suite.log; false)
+make check || (cat code/latte/test-suite.log; false)
