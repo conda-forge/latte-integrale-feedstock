@@ -3,27 +3,25 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '9'
+- '15'
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '9'
+- '15'
 gmp:
 - '6'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-macos_min_version:
-- '10.9'
 ntl:
 - 11.4.3
 perl:
-- 5.26.2
-pin_run_as_build:
-  gmp:
-    max_pin: x
-  perl:
-    max_pin: x.x.x
+- 5.32.1
+target_platform:
+- osx-64
+zip_keys:
+- - c_compiler_version
+  - cxx_compiler_version
