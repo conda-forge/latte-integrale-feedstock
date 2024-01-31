@@ -17,7 +17,7 @@ docker_image:
 gmp:
 - '6'
 ntl:
-- 11.5.1
+- 11.4.3
 perl:
 - 5.32.1
 target_platform:
